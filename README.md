@@ -8,5 +8,6 @@ A simple streamlit app to detect AI vs human texts
 1. install docker
 2. clone this repo
 3. open this repo in vs code, then build and reopen in container in vs code.
+4. run `streamlit run app.py`
 
 all dependencies will be auto installed.
