@@ -1,0 +1,23 @@
+torch
+torchvision
+jupyter
+pandas
+openpyxl
+numpy
+matplotlib
+scikit-learn
+seaborn
+nltk
+streamlit
+plotly
+joblib
+# spacy[cuda12x]
+
+
+pdfplumber
+python-docx
+textstat
+transformers
+wordcloud
+plotly
+PyPDF2
