@@ -720,17 +720,22 @@ elif page == "❓ Help":
     # System information
     st.subheader("💻 Project Structure")
     st.code("""
-    ai_detection_app/
-    ├── app.py                              # Main application
-    ├── requirements.txt                    # Dependencies
-    ├── models/                             # Model files
-    │   ├── svm_model.pkl                   # SVM classifier
-    │   ├── decision_tree_model.pkl         # Decision Tree classifier
-    │   ├── adaboost_model.pkl              # AdaBoost classifier
-    │   └── tfidf_vectorizer.pkl            # Feature extraction
-    └── sample_data/                        # Sample files
-        ├── human_texts/
-        └── ai_texts/
+    ai_vs_human_text_detection/
+    ├── .devcontainer/                # Development container configuration
+    │   ├── devcontainer.json         # Container settings
+    │   └── Dockerfile                # Image build instructions
+    ├── data/                         # (Optional) training and testing data
+    │   ├── AI_vs_huam_train_dataset.xlsx
+    │   ├── Final_test_data.csv                        
+    ├── models/                       # Pre-trained model files
+    │   ├── svm_model.pkl
+    │   ├── decision_tree_model.pkl
+    │   └── adaboost_model.pkl
+    ├── notebooks/                    # Jupyter notebooks for training and evaluation
+    │   └── model_training.ipynb
+    ├── app.py                        # Main Streamlit application
+    ├── requirements.txt              # Python dependencies
+    └── README.md                     # This file
     """)
 
 # ============================================================================
