@@ -55,17 +55,6 @@ This project is configured to run inside a development container using VS Code R
    - In VS Code, open the command palette (`Ctrl+Shift+P`) and select **Remote-Containers: Open Folder in Container...**
    - Choose this project folder. VS Code will build the Docker image based on `.devcontainer/Dockerfile` and attach to the container.
 
-3. **Install Dependencies & Run**
-
-   - Inside the container terminal, install Python packages:
-     ```bash
-     pip install -r requirements.txt
-     ```
-   - Launch the Streamlit app:
-     ```bash
-     streamlit run app.py
-     ```
-
 ---
 
 ## 💡 How to Use the Streamlit App
