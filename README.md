@@ -7,11 +7,13 @@ A Streamlit application that analyzes text to determine whether it was written b
 ## 📦 Repository Structure
 
 ```
-ai_detection_app/
+ai_vs_human_text_detection/
 ├── .devcontainer/                # Development container configuration
 │   ├── devcontainer.json         # Container settings
 │   └── Dockerfile                # Image build instructions
-├── data/                         # (Optional) sample data and datasets
+├── data/                         # (Optional) training and testing data
+│   ├── AI_vs_huam_train_dataset.xlsx
+│   ├── Final_test_data.csv                        
 ├── models/                       # Pre-trained model files
 │   ├── svm_model.pkl
 │   ├── decision_tree_model.pkl
