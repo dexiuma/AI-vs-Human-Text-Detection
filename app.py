@@ -5,7 +5,7 @@ import os
 import re
 import time
 from io import BytesIO
-
+import nltk
 import docx
 import joblib
 import matplotlib.pyplot as plt
@@ -16,6 +16,8 @@ import seaborn as sns
 import streamlit as st
 from wordcloud import WordCloud
 
+nltk.download('stopwords')
+nltk.download('wordnet')
 from text_utils import preprocess
 
 # Page Configuration
