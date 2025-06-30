@@ -61,9 +61,9 @@ This project is configured to run inside a development container using VS Code R
 
    - Clone the repository locally:
      ```bash
-     git clone https://github.com/<username>/ai_detection_app.git
-     cd ai_detection_app
+     git clone https://github.com/dexiuma/AI-vs-Human-Text-Detection.git
      ```
+   - In VS Code, navigate to the directory of the cloned repo.
    - In VS Code, open the command palette (`Ctrl+Shift+P`) and select **Remote-Containers: Open Folder in Container...**
    - Choose this project folder. VS Code will build the Docker image based on `.devcontainer/Dockerfile` and attach to the container.
 
