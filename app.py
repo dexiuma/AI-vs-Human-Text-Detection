@@ -719,15 +719,14 @@ st.sidebar.info("""
 AI vs Human Text Detector
 Built with Streamlit
 
-Models:    
-                    
--  🔍 SVM
--  🌳 Decision Tree
--  🚀 AdaBoost
--  🧠 CNN
--  🔄 RNN
--  ⚓ LSTM
-                
+Models:                       
+- 🔍 SVM
+- 🌳 Decision Tree
+- 🚀 AdaBoost
+- 🧠 CNN
+- 🔄 RNN
+- ⚓ LSTM  
+                           
 Framework: scikit-learn + PyTorch
 """)
 st.markdown("---")
