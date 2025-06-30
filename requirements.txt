@@ -1,3 +1,5 @@
+torch
+torchvision
 jupyter
 pandas
 openpyxl
