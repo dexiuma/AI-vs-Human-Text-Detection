@@ -75,7 +75,7 @@ This project is configured to run inside a development container using VS Code R
    - Overview of features and model availability status.
 2. **Single Detection**
    - Enter text manually or upload a single file to analyze.
-   - Select the model (SVM, Decision Tree, AdaBoost) and click **Analyze Text**.
+   - Select the model (SVM, Decision Tree, AdaBoost, CNN, RNN, LSTM) and click **Predict**.
    - View prediction badge, confidence metrics, and word cloud visualization.
 3. **Batch Processing**
    - Upload multiple files at once.
