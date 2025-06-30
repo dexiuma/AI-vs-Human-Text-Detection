@@ -683,7 +683,33 @@ elif page == "❓ Help":
   - Neural Networks: Detailed prediction insights instead of features
 - **How to locally deploy this app**
   - This app is containerized. Simply build and run the container.
-                """)
+""")
+    st.subheader("💻 Project Structure")
+    st.code("""
+    ai_human_detection_project/
+        ├── app.py # Main Streamlit application
+        ├── requirements.txt # Project dependencies
+        ├── .devcontainer # Container configuration
+        │ ├── devcontainer.json
+        │ ├── Dockerfile
+        │ ├── requirements.txt # devcontainer internal dependencies
+        │ ├── setup.sh # devcontainer internal dependencies installation script
+        ├── models/ # Trained models
+        │ ├── svm_model.pkl
+        │ ├── decision_tree_model.pkl
+        │ ├── adaboost_model.pkl
+        │ ├── CNN.pkl
+        │ ├── LSTM.pkl
+        │ ├── RNN.pkl
+        │ ├── tfidf_vectorizer.pkl
+        ├── data/ # Training and test data
+        │ ├── AI_vs_huam_train_dataset.xlsx
+        │ └── Final_test_data.csv
+        ├── notebooks/ # Development notebooks
+        │ ├── project_1.ipynb # Project code and documentation
+        │ ├── project_2.ipynb # Project code and documentation
+        └── README.md # Project documentation
+        """)
 # ----------------------------------------
 # Footer
 # ----------------------------------------
@@ -695,12 +721,12 @@ Built with Streamlit
 
 Models:    
                     
-    🔍 SVM
-    🌳 Decision Tree
-    🚀 AdaBoost
-    🧠 CNN
-    🔄 RNN
-    ⚓ LSTM
+-  🔍 SVM
+-  🌳 Decision Tree
+-  🚀 AdaBoost
+-  🧠 CNN
+-  🔄 RNN
+-  ⚓ LSTM
                 
 Framework: scikit-learn + PyTorch
 """)
