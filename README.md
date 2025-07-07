@@ -30,8 +30,7 @@ ai_human_detection_project/
    │ ├── AI_vs_huam_train_dataset.xlsx
    │ └── Final_test_data.csv
    ├── notebooks/ # Development notebooks
-   │ ├── project_1.ipynb # Project code and documentation
-   │ ├── project_2.ipynb # Project code and documentation
+   │ ├── train_model.ipynb # trains model and saves them as pkl in /models/
    └── README.md # Project documentation
 ```
 
